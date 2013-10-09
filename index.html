@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html> 
+<title> Screwing with PHP </title>
+<style>
+html{
+	background-color: #222222;
+	font-size: 10pt;	
+}
+
+.loginform ul {
+	padding:0;
+	margin: 0;
+}
+.loginform li {
+	display: inline;
+	float: left;
+}
+</style>
+
+<section class="loginform cf">
+		<form name="login" action="index_submit" method="get" accept-charset="utf-8">
+			<ul>
+				<li><label for = "usermail">Email</label>
+					<input type="email" name="username" placeholder="yourname@email.com" required>
+				</li>
+				<li>
+					<label for="userpass">Password</label>
+					<input type="password" name="userpass" placeholder="e.g. Pass123" required>
+				</li>
+				<li>
+					<input type="submit" value="Login">
+				</li>
+			</ul>
+		</form>
+	</section>
+	</html>
