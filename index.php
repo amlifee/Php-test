@@ -1,7 +1,3 @@
-
-
-
-
 <?php
 	echo 'Login page under development';
 	/*$host="localhost";
@@ -16,12 +12,24 @@
 
 <html>
 <title> Screwing with PHP </title>
-	<body>
-		<p>
-			<?php
-			echo $_SERVER['HTTP_USER_AGENT'];
-			?>
-		</p>
-	</body>
-	</html>
+</html>
+
+
+<section class="loginform cf">
+		<form name="login" action="index_submit" method="get" accept-charset="utf-8">
+			<ul>
+				<li><label for = "usermail">Email</label>
+					<input type="email" name="username" placeholder="yourname@email.com" required>
+				</li>
+				<li>
+					<label for="userpass">Password</label>
+					<input type="password" name="userpass" placeholder="e.g. Pass123" required>
+				</li>
+				<li>
+					<input type="submit" value="Login">
+				</li>
+			</ul>
+		</form>
+	</section>
+
 
